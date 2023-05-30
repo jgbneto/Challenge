@@ -1,0 +1,124 @@
+* {
+   background-image: url(imagens/matrix-code.gif);
+   font-family: 'Special Elite', cursive;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 150%;
+    }
+
+.logoAlura {
+    position: relative;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%
+}
+
+main {
+    display: inline-flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    }
+
+.text-area {
+    border: none;
+    color:#e7ffa554;
+    margin-top: 10px;
+    text-transform: initial;
+    text-align: left;
+}
+
+::placeholder {color: #ffffff31;}
+    .text-area:focus {
+        outline: none;
+    }
+
+    .mensagem {
+        opacity: 25%;
+        background:#4bf10977;
+        border: none;
+        border-radius:30px;
+        color: white;
+        margin-left: 40px;
+        margin-top: 5px;
+        padding: 3px;
+        position: absolute;
+        box-shadow: 10px 2px 65px 0#15e237;
+    }
+
+    .mensagem {
+        outline: none;
+        text-align: endf;
+    }
+
+    .botoes {
+        display: flex;
+        margin-top: 18px;
+    }
+
+    .botao-criptografar {
+        background: #177938;
+        border: 1px solid #31680d;
+        border-radius: 24px;
+        color: #d1e9d1;
+        cursor: pointer;
+        height: 40px;
+        margin-left: 30px;
+        width: 328px;
+        transition: 1s all;
+        opacity: 50%;
+        box-shadow: 5px 7px 15px 0 #15e237;
+        
+    }
+
+    .botao-descriptografar {
+        background: #177938;
+        border: 1px solid #31680d;
+        border-radius: 24px;
+        color: #d1e9d1;
+        cursor: pointer;
+        height: 40px;
+        margin-left: 30px;
+        width: 328px;
+        transition: 1s all;
+        opacity: 50%;
+        box-shadow: 5px 7px 15px 0 #15e237;
+        
+    }
+
+    .botao-copiar {
+        background: #177938;
+        border: 1px solid #31680d;
+        border-radius: 24px;
+        color: #d1e9d1;
+        cursor: pointer;
+        height: 40px;
+        margin-left: 155px;
+        margin-top: 425px;
+        position: fixed;
+        width: 120px;   
+        transition: 1s all;
+        opacity: 50%;
+        box-shadow: 5px 7px 15px 0 #15e237;
+        
+    }
+
+    .botao-criptografar:hover{
+        background: rgb(17, 71, 3);
+        transform: scale(1);
+    }
+    .botao-descriptografar:hover{
+        background: rgb(17, 71, 3);
+        transform: scale(1);
+    }
+
+      
+    .botao-copiar:hover{
+        background: rgb(17, 71, 3);
+        transform: scale(1);
+    }
+
+    .informacao {
+        color: #495057;
+        font-size: 15px;
+    }
+
